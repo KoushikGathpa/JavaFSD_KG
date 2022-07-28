@@ -10,6 +10,16 @@ git push -u origin main
 
 ========================================
 git status (to check whether we have any new unpushed files. The files so are in red colour)
-git add filename.xxx (add file name: this satges file )
-git commit -m "second checkin" ( pushed to local system)
+git add Gitcommands_Java.txt (add file name: this satges file )
+git commit -m "second checkin" ( pushed to local system) ( the " is comment. It gives more data about file " )
 git push -u origin main  ( file is pushed )
+
+==========================================
+
+To modify a file, open it in ur local system and modify. Then save it
+git status ( this will show that the file is modified one )
+git add Gitcommands_Java.txt 
+git commit -m "edit version xxx.xxx"
+git push -u origin main
+
+=======================
