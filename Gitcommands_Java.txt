@@ -1,0 +1,15 @@
+echo "# JavaFSD_KG" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KoushikGathpa/JavaFSD_KG.git
+git push -u origin main
+
+
+
+========================================
+git status (to check whether we have any new unpushed files. The files so are in red colour)
+git add filename.xxx (add file name: this satges file )
+git commit -m "second checkin" ( pushed to local system)
+git push -u origin main  ( file is pushed )
