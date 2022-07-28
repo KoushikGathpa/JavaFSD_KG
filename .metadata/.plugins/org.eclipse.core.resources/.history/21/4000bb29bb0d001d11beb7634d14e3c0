@@ -1,0 +1,16 @@
+package mypackage;
+
+public class MyClass 
+{
+
+	public static void main(String[] args) 
+	{
+	    int a =5;
+	    int b =1;
+	    int c = a<<b;
+	    a+=6;
+	    System.out.println(a);
+	    
+	}
+
+}
